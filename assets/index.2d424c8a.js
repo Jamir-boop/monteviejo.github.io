@@ -1,0 +1,1 @@
+import{$ as o}from"./vendor.173eabb8.js";o(document).ready(()=>{o(window).scroll(()=>{window.scrollY>0?o("header").css("display","block"):o("header").css("display","none")}),o(document).on("mousemove",function(e){o(".granos_front").css({top:e.pageY*.01,left:e.pageX*.01})})});
